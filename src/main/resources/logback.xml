@@ -29,8 +29,8 @@
         <username>guest</username>
         <password>guest</password>
 
-        <applicationId>api-service-4</applicationId>
-        <routingKeyPattern>api-service-4</routingKeyPattern>
+        <applicationId>logging-rabbit</applicationId>
+        <routingKeyPattern>logging-rabbit</routingKeyPattern>
         <declareExchange>true</declareExchange>
         <exchangeType>direct</exchangeType>
         <exchangeName>ex_logstash</exchangeName>

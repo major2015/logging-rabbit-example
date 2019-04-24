@@ -14,9 +14,9 @@ public class AboutResource {
     private static final Logger logger = LoggerFactory.getLogger(AboutResource.class);
 
     @Value("${spring.application.name}")
-    private String serverName;
-    private final About about = new About.Builder(
-            serverName, System.currentTimeMillis())
+    private String servername;
+
+    private final About about = new About.Builder(servername, System.currentTimeMillis())
             .build();
 
     public static class About {
